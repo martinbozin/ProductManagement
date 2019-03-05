@@ -1,0 +1,11 @@
+<div class='panel panel-primary' *ngIf='product'>
+  <div class='panel-heading' style='font-size:large'>
+      {{pageTitle + ': ' + product.productName}}
+  </div>
+</div>
+
+<div class='card-footer'>
+  <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
+      <i class='glyphicon glyphicon-chevron-left'></i> Back
+  </button>
+</div>
